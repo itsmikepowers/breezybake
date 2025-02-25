@@ -8,7 +8,7 @@ export default function Home() {
     <Layout>
       <div className="text-center text-[#5a3e20]">
         {/* Hero Section with simplified styling */}
-        <div className="py-12 px-4 mb-12 bg-gradient-to-b from-[#fcfbe6] to-white rounded-lg shadow-sm">
+        <div className="py-12 px-4 mb-12 to-white rounded-lg shadow-sm">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">Welcome to BreezyBake</h1>
           <p className="text-2xl mb-8">Your one-stop shop for delicious baked goods</p>
           
@@ -25,7 +25,7 @@ export default function Home() {
           </div>
           
           <p className="text-xl max-w-2xl mx-auto mb-8 italic">
-            "Baking happiness into every bite since 2010"
+            &ldquo;Baking happiness into every bite since 2010&rdquo;
           </p>
         </div>
         
@@ -68,7 +68,7 @@ export default function Home() {
         </div>
         
         {/* Why Choose Us Section */}
-        <div className="bg-[#fcfbe6] py-12 px-4 mb-16 rounded-lg">
+        <div className="py-12 px-4 mb-16 rounded-lg">
           <div className="max-w-5xl mx-auto">
             <h2 className="text-3xl font-bold mb-10">Why Choose BreezyBake?</h2>
             
@@ -106,7 +106,7 @@ export default function Home() {
                 </div>
                 <div className="text-left">
                   <h3 className="text-xl font-bold mb-2">Community Focused</h3>
-                  <p>We're proud to be a local business that supports our community through events and partnerships.</p>
+                  <p>We&apos;re proud to be a local business that supports our community through events and partnerships.</p>
                 </div>
               </div>
             </div>
@@ -116,32 +116,16 @@ export default function Home() {
         {/* Call to Action Section */}
         <div className="max-w-4xl mx-auto mb-16 bg-[#eda962]/10 p-8 rounded-lg border border-[#eda962]/30">
           <h2 className="text-3xl font-bold mb-4">Ready to Treat Yourself?</h2>
-          <p className="text-xl mb-8">Explore our full selection of freshly baked goods or learn more about our bakery's story.</p>
+          <p className="text-xl mb-8">Explore our full selection of freshly baked goods or learn more about our bakery&apos;s story.</p>
           
           <div className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-6">
-            <Link href="/shop" className="btn bg-[#eda962] text-[#fcfbe6] hover:bg-[#e09c4f] px-8 py-3 rounded-lg flex items-center justify-center shadow-md transition-all hover:shadow-lg">
+            <Link href="/shop" className="btn bg-[#eda962] text-white hover:bg-[#e09c4f] px-8 py-3 rounded-lg flex items-center justify-center shadow-md transition-all hover:shadow-lg">
               <FaShoppingBasket size={24} className="mr-2" />
               Browse Our Shop
             </Link>
-            <Link href="/about" className="btn bg-white text-[#eda962] border border-[#eda962] hover:bg-[#fcfbe6] px-8 py-3 rounded-lg flex items-center justify-center shadow-md transition-all hover:shadow-lg">
+            <Link href="/about" className="btn bg-white text-[#eda962] border border-[#eda962] hover:bg-[#f8d4a9]/20 px-8 py-3 rounded-lg flex items-center justify-center shadow-md transition-all hover:shadow-lg">
               About Our Bakery
             </Link>
-          </div>
-        </div>
-        
-        {/* Newsletter Signup */}
-        <div className="max-w-3xl mx-auto mb-12 p-6 bg-white rounded-lg shadow-md border border-[#eda962]/20">
-          <h2 className="text-2xl font-bold mb-4">Stay Updated with Fresh Offers</h2>
-          <p className="mb-6">Subscribe to our newsletter for special promotions, seasonal treats, and baking tips!</p>
-          <div className="flex flex-col md:flex-row gap-4">
-            <input 
-              type="email" 
-              placeholder="Your email address" 
-              className="flex-grow px-4 py-2 border border-[#eda962]/30 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#eda962]"
-            />
-            <button className="bg-[#5a3e20] text-white px-6 py-2 rounded-lg hover:bg-[#4a3010] transition-colors">
-              Subscribe
-            </button>
           </div>
         </div>
       </div>
