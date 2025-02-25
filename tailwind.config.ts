@@ -12,6 +12,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        sans: ['var(--font-pt-serif)', 'PT Serif', 'serif'],
+        serif: ['var(--font-pt-serif)', 'PT Serif', 'serif'],
+      },
     },
   },
   plugins: [],
