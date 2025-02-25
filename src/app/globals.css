@@ -17,10 +17,15 @@
   }
 }
 
+html {
+  background-color: #eda962;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font-pt-serif), 'PT Serif', serif;
+  min-height: 100vh;
 }
 
 @layer components {
